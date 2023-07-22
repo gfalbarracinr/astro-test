@@ -1,0 +1,22 @@
+[
+    {
+        "img": "images/carousel/6.jpg",
+        "text": "Lean development methodology<br/>honed in Silicon Valley",
+        "alt": "Lean development methodology"
+    },
+    {
+        "img": "images/carousel/7.jpg",
+        "text": "Deep expertise<br/>in emerging technologies<br/>helps you leap ahead",
+        "alt": "Emerging tecnologies"
+    },
+    {
+        "img": "images/carousel/10.jpg",
+        "text": "Smart, motivated<br> engineers for your<br> business",
+        "alt": "Motivated engineers"
+    },
+    {
+        "img": "images/carousel/11.jpg",
+        "text": "Top technical talent<br/>working to realize your vision",
+        "alt": "Top talent"
+    }
+]

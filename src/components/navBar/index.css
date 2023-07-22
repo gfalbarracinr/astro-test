@@ -1,0 +1,46 @@
+.navbar-element {
+  display: flex;
+}
+.navbar-menu{
+  list-style-type: none;
+  margin: 0;
+  flex: 3;
+  justify-content: center;
+}
+.navbar-item {
+  padding: 10px 15px;
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+}
+.navbar-item-active {
+  background-color: #eaeaea;
+}
+.navbar-link {
+  text-decoration: none;
+  color: #6b2875;
+  line-height: 20px;
+}
+.navbar-link:hover {
+  color: #96639c
+}
+
+@media screen and (min-width: 994px) {
+  .navbar-menu{
+    flex: 1;
+  }
+}
+@media screen and (max-width: 780px) {
+  .navbar-menu{
+    flex-direction: column;
+    min-width: 100%;
+    padding: 0;
+  }
+  .menu-open {
+    display: flex;
+  }
+  .menu-close {
+    display: none;
+  }
+
+}

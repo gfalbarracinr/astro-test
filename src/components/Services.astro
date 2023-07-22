@@ -1,0 +1,61 @@
+---
+
+const posts = await Astro.glob('../posts/services/*.md') || [];
+
+
+---
+
+<section class="post-container">
+    <h1>We’d like to help you solve hard technical problems and realize your business vision</h1>
+    <div class="container">
+        {
+            posts.map((article) => (
+            <article class="post">
+                <article.Content />
+            </article>
+            ))
+        }
+    </div>
+</section>
+<style>
+	.container {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+
+    h1 {
+        text-align: center;
+        color: #6b2875;
+        font-weight: 600;
+        margin: 1em 0 0.75em;
+        text-shadow: none;
+        font-size: 36px;
+        line-height: 1.1;
+    }
+    .post-container :global(h2) {
+        color: #6b2875;
+        font-weight: 600;
+        margin: 1em 0 0.75em;
+        text-shadow: none;
+        font-size: 24px;
+    }
+    .post-container :global(p) {
+        text-align: justify;
+        margin: 0 0 30px;
+        font-weight: 400;
+        line-height: 1.875;
+        font-size: 16px;
+        ;
+    }
+    .post {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+        max-width: 500px;
+        min-width: 300px;
+    }
+</style>

@@ -1,0 +1,75 @@
+---
+import { Icon } from 'astro-icon'
+---
+
+<style>
+  .container {
+    display: flex;
+    line-height: 50px;
+    color: #fff;
+    background: #6b2875;
+    padding: 40px 0;
+    margin-top: 2em;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .logo {
+    width: 170px;
+  }
+  .contact-container {
+    margin: 5px;
+    line-height: 16px;
+    font-size: 14px;
+  }
+  .contact-container  a, .social-media a {
+    color: white;
+    text-decoration: none;
+  }
+  .social-media {
+    font-size: 30px;
+    color: white;
+    display: flex;
+    gap: 5px;
+  }
+  .icon {
+    width: 30px;
+    height: 30px;
+  }
+
+</style>
+<footer>
+  <section class="container">
+    <article class="logo-container">
+      <img class="logo" src="src/assets/images/logo_white.png" alt="Ekumen logo"/>
+    </article>
+    <article class="contact-container">
+      <p>
+        +1 (408) 414-7455 |
+        <a href="mailto:contact@ekumenlabs.com">contact@ekumenlabs.com</a>
+      </p>
+      <p>Copyright &copy; {new Date().getFullYear()}. All rights reserved.</p>
+    </article>
+    <article class="social-media">
+        <div class="icon">
+          <a href="https://www.facebook.com/ekumenlabs" target="_blank">
+            <Icon pack="mdi" name="facebook" />
+          </a>
+        </div>
+        <div class="icon">
+          <a href="https://twitter.com/ekumenlabs" target="_blank">
+            <Icon pack="mdi" name="twitter" />
+          </a>
+        </div>
+        <div class="icon">
+          <a href="https://www.instagram.com/ekumenlabs/" target="_blank">
+            <Icon pack="mdi" name="instagram" />
+          </a>
+        </div>
+        <div class="icon">
+          <a href="https://www.linkedin.com/company/ekumenlabs" target="_blank">
+            <Icon pack="mdi" name="linkedin" />
+          </a>
+        </div>
+    </article>
+  </section>
+  </footer>

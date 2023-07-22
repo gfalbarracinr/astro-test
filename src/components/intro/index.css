@@ -1,0 +1,41 @@
+.section-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.expertise-img {
+    background-size: 100% 100%;
+    background-position: no-repeat;
+    width: 350px;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.expertise-title {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 24px;
+    box-sizing: content-box;
+    padding: 220px 20px 20px 20px;
+    word-break: break-word;
+    z-index: 2;
+    text-align: center;
+    text-shadow: 2px 2px 1px black;
+}
+
+.title {
+    text-align: center;
+    color: #6b2875;
+    font-weight: 600;
+    margin: 1em 0 0.75em;
+    text-shadow: none;
+    font-size: 36px;
+    line-height: 1.1;
+}
+.text {
+    text-align: center;
+    margin: 0 0 30px;
+}

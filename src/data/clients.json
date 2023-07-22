@@ -1,0 +1,46 @@
+[
+    {
+        "img": "images/clients/aevena_logo.png",
+        "alt": "Aevena logo"
+    },
+    {
+        "img": "images/clients/airbriteBW.png",
+        "alt": "airbriteBW logo"
+    },
+    {
+        "img": "images/clients/clearpathrobotics.png",
+        "alt": "clear path robotics logo"
+    },
+    {
+        "img": "images/clients/fellow.png",
+        "alt": "fellow logo"
+    },
+    {
+        "img": "images/clients/pickit.png",
+        "alt": "pickit logo"
+    },
+    {
+        "img": "images/clients/premise_logo.png",
+        "alt": "premise logo"
+    },
+    {
+        "img": "images/clients/qq.png",
+        "alt": "qq logo"
+    },
+    {
+        "img": "images/clients/qualcomm-inc-logobw.png",
+        "alt": "qualcomm-inc logo"
+    },
+    {
+        "img": "images/clients/URochester.png",
+        "alt": "URochester logo"
+    },
+    {
+        "img": "images/clients/willow_garage_logo.png",
+        "alt": "willow_garage logo"
+    },
+    {
+        "img": "images/clients/yujin_robot.png",
+        "alt": "yujin_robot logo"
+    }
+]

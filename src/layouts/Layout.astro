@@ -1,0 +1,57 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro'
+export interface Props {
+  title: string;
+  description: string
+}
+
+const { title, description } = Astro.props;
+---
+<style is:global>
+  body {
+      margin: 0;
+      font-family: "Roboto", "Open Sans", "Segoe UI", "lucida grande", arial, verdana, "lucida sans unicode", tahoma, sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+  }    
+ 
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{ title }</title>
+    <meta content=`{${description}}` name="description" />
+
+    <!-- Facebook Open Graph-->
+	  <meta property="og:url" content="http://www.ekumenlabs.com" />
+	  <meta property="og:title" content="Ekumen" />
+	  <meta property="og:description" content="We are an international engineering boutique, provider of advanced software development services and technology." />
+	  <meta property="og:image" content="http://www.ekumenlabs.com/images/Logo-big.png" />
+
+	  <!-- Twitter card-->
+	  <meta name="twitter:card" content="summary" />
+	  <meta name="twitter:title" content="Ekumen" />
+	  <meta name="twitter:description" content="We are an international engineering boutique, provider of advanced software development services and technology." />
+	  <meta name="twitter:url" content="http://www.ekumenlabs.com" />
+	  <meta name="twitter:image" content="http://www.ekumenlabs.com/images/iso-big.png" />
+    <meta name="generator" content={Astro.generator} />
+  </head>
+
+  <body>
+    <Header siteURL='https://ekumenlabs.com'/>
+
+    <slot />
+
+    <Footer />
+    
+    <!-- <%= javascript_include_tag "base.js", "bootstrap-includes.js"%>
+    <% current_page.data.js.each do |jsfile|%>
+        <%= javascript_include_tag jsfile %>
+    <% end if current_page.data.js %> -->
+  </body>
+</html>

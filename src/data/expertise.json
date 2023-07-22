@@ -1,0 +1,22 @@
+[
+    {
+        "img": "images/expertise/robotics.jpg",
+        "text": "Robotics Software Applications",
+        "alt": "robotics"
+    },
+    {
+        "img": "images/expertise/earth2.jpg",
+        "text": "Web and Mobile Technology",
+        "alt": "Earth"
+    },
+    {
+        "img": "images/expertise/drone.jpg",
+        "text": "Embedded Systems",
+        "alt": "Drone"
+    },
+    {
+        "img": "images/expertise/phone.jpg",
+        "text": "User Centered Engineering",
+        "alt": "Phone"
+    }
+]
