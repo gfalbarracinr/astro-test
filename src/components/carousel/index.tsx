@@ -14,7 +14,7 @@ function Carousel() {
             { carouselData.map((slide) => (
                 <SwiperSlide key={slide.img} className="slide">
                     <img 
-                        src={`/src/assets/${slide.img}`}  
+                        src={`/${slide.img}`}  
                         loading="lazy"
                         alt={slide.alt}
                     />

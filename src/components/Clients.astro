@@ -33,11 +33,11 @@ import clients from '../data/clients.json';
 <section class="client-section">
     <h1 class="client-title">We develop great working relationships and end results with leading companies and organizations</h1>
     <article class="container">
-        <img class="client-img img-main" src="src/assets/images/clients/google.png" alt="Google logo"/>
+        <img class="client-img img-main" src="/images/clients/google.png" alt="Google logo"/>
         <div class="client-container">
             {
                 clients.map((client) => (
-                    <img class="client-img" src={`src/assets/${client.img}`} alt={client.alt}/>
+                    <img class="client-img" src={`/${client.img}`} alt={client.alt}/>
                 ))
             }
         </div>
